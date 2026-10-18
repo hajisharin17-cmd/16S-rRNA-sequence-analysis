@@ -1,0 +1,21 @@
+# Results summary
+
+## Run details
+- Date of BLAST run: 17 October 2026
+- Query: NR_113599.1, Pseudomonas aeruginosa strain NBRC 12689, 16S rRNA, partial sequence
+- Program: BLASTN (NCBI web)
+- Database: rRNA type strains / 16S ribosomal RNA
+- Query length: 1,461 bp
+
+## Sequence statistics (Python)
+- A: 371, T: 297, G: 463, C: 330, other: 0
+- GC content: 54.28%
+- Reverse complement generated and verified by reversing it again (matched the original)
+
+## BLAST result
+- Top hits: P. aeruginosa DSM 50071 (NR_117678.1), NBRC 12689 (NR_113599.1, the query itself), ATCC 10145 (NR_114471.1): all 100% identity, 100% query cover, E value 0.0
+- Next-closest: Metapseudomonas otitidis 98.63%, M. lalkuanensis 98.08%, Pseudomonas tohonis 98.02%
+
+## Notes
+- The query is itself present in the database, so a 100% self-hit is expected.
+- 16S identity of about 98% to other species shows the limited species-level resolution of 16S in this group.
